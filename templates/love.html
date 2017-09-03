@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {background-image:url("../static/abc.jpg");}
+.exp1{font-size:12px;}
+</style>
+<script>
+function LoveText()
+{
+if (document.getElementById("field").value == 'Fannie')
+{
+alert("Yes, it is you! I love you " + document.getElementById("field").value);
+}
+else if (document.getElementById("field").value == 'fannie')
+{
+alert("Yes, it is you! I love you " + document.getElementById("field").value);
+}
+else
+{
+alert("Sorry!")
+}
+
+}
+</script>
+</head>
+
+<body>
+
+
+<div class="exp1">Your Name:</div> <input type="text" id="field"><br><br>
+
+<button onclick="LoveText()">Submit</button>
+
+
+
+
+</body>
+</html>
